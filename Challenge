@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Captcha | SSPANEL</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+        /*! Spectre.css v0.5.0 | MIT License | github.com/picturepan2/spectre */html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:sans-serif}body{margin:0}footer{display:block}a{-webkit-text-decoration-skip:objects;background-color:transparent}a:active,a:hover{outline-width:0}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}*,:after,:before{box-sizing:inherit}html{-webkit-tap-highlight-color:transparent;box-sizing:border-box;font-size:20px;line-height:1.5}body{background:#fff;color:#50596c;font-family:-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;font-size:.8rem;overflow-x:hidden;text-rendering:optimizeLegibility}a{color:#5755d9;outline:0;text-decoration:none}a:focus{box-shadow:0 0 0 .1rem rgba(87,85,217,.2)}a:active,a:focus,a:hover{color:#4240d4;text-decoration:underline}.h1,.h4{font-weight:500}.h1{font-size:2rem}.h4{font-size:1.2rem}p{margin:0 0 1rem}a{-webkit-text-decoration-skip:ink edges;text-decoration-skip:ink edges}.form-input:not(:placeholder-shown):invalid{border-color:#e85600}.form-input:not(:placeholder-shown):invalid:focus{box-shadow:0 0 0 .1rem rgba(232,86,0,.2)}.container{margin-left:auto;margin-right:auto;padding-left:.4rem;padding-right:.4rem;width:100%}.container.grid-lg{max-width:976px}.empty{background:#f8f9fa;border-radius:.1rem;color:#667189;padding:3.2rem 1.6rem;text-align:center}.empty .empty-subtitle,.empty .empty-title{margin:.4rem auto}.empty .empty-action{margin-top:3.5rem}.text-error{color:#e85600}.divider{border-top:.05rem solid #e7e9ed;display:block;height:.05rem;margin:.4rem 0;position:relative}.container:after{clear:both;content:"";display:table}.centered{display:block;float:none;margin-left:auto;margin-right:auto}.my-2{margin-bottom:.4rem;margin-top:.4rem}.valign{-ms-flex-align:center!important;-webkit-align-items:center!important;-webkit-box-align:center!important;align-items:center!important;display:-webkit-box!important;display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important}.section-footer{color:#acb3c2;padding:2rem .5rem 0;position:relative;z-index:200}.section-footer a{color:#667189}</style>
+</head>
+<body>
+<div class="empty valign" style="height:100vh">
+<div class="centered">
+<p class="empty-title h1">One more step</p>
+<p class="empty-subtitle">Please complete the security check.</p>
+<p class="empty-title h4">请完成人机安全校验</p>
+<div class="my-2" align="center">
+<form class="challenge-form" id="challenge-form" action="/cdn-cgi/l/chk_captcha" method="get">
+  <input type="hidden" name="s" value="50692728eb04f5795b8e9272c24ef59291868715-1555836697-1800-AVsAD/3qmT1gfD78CGwTwPXB46RQ61F1ASShIjElZNDCKM9G1fdeYt1QPE/cqPN+APks37bUPUyDmhwoCEe5fP+o6NYYKIB628mjIeMlzevkTprkpZ6e7zBJfu+C93Rd3T/ruQsS0BSmAtFQKjzbpUY="></input>
+  <script type="text/javascript" src="/cdn-cgi/scripts/cf.challenge.js" data-type="normal"  data-ray="4cae1e00ba352e1b" async data-sitekey="6LfBixYUAAAAABhdHynFUIMA_sa4s-XsJvnjtgB0"></script>
+  <div class="g-recaptcha"></div>
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+    <div><div style="width: 302px">
+      <div>
+        <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LfBixYUAAAAABhdHynFUIMA_sa4s-XsJvnjtgB0" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;"></iframe>
+      </div>
+      <div style="width: 300px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;"></textarea>
+        <input type="submit" value="Submit"></input>
+      </div>
+    </div></div>
+  </noscript>
+</form>
+
+</div>
+<div class="empty-action text-center">
+<span class="h6">
+<b>Your IP:</b> 203.218.252.250</span>
+<span class="h6">&bull;</span>
+<span class="h6">
+<b>Ray ID:</b> 4cae1e00ba352e1b</span>
+<br>
+</div>
+<div class="divider"></div>
+<div class="empty-action">
+</div>
+<footer class="section section-footer">
+<div id="copyright" class="grid-footer container grid-lg">©
+<span year></span>
+<span class="text-error">♥</span>
+<a href="https://github.com/Anankke/ss-panel-v3-mod_Uim" target="_blank">SSPANEL</a>
+</div>
+</footer>
+</div>
+</div>
+<script>var copyrightNow=(new Date).getFullYear(),textContent=document.querySelector("span[year]");copyrightSince=2017,textContent.textContent=copyrightSince===copyrightNow?copyrightNow:copyrightSince+" - "+copyrightNow;</script>
+</body>
+</html>
