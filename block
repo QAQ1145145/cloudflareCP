@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>本站目前不对大陆地区开放，请自行更改本地IP</title>
+<title>你被安全规则拦截,无法访问</title>
 <script crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
 <SCRIPT type="text/javascript">        
             var maxtime = 6; 
@@ -152,7 +152,7 @@ html body h4 {
 </head>
 <body style="text-align: center;">
 <a><img style="width: 200px;" src="http://wx2.sinaimg.cn/large/0060lm7Tly1g37vaekgnbj308c08c0sw.jpg" /></a>
-<h3 style="color: #58b1f7;"><div data-translate="checking_browser" id="timer">你的IP被本站安全规则拦截，你无法访问本站</div> </h3>
+<h3 style="color: #58b1f7;"><div data-translate="checking_browser" id="timer">本站目前不对当前地区开放，请更改您的本地IP</div> </h3>
 <p style="color: #84c1bc;" data-translate="process_is_automatic">事件编号：::RAY_ID::<br>您的IP：::CLIENT_IP:: ::GEO::</p>
 <h3 style="color: #8690c7;" style="color: #adadad;" ><small id="result"></small></h3>
 <div class="scene">
