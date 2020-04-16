@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>安全规则拦截,请输入验证码</title>
+<title>安全規則攔截,請輸入驗證碼</title>
 <script crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
 <SCRIPT type="text/javascript">        
             var maxtime = 6; 
@@ -13,7 +13,7 @@
                     seconds = Math.floor(maxtime % 60);
                     msg = "稍候 " + seconds + " 秒";
                     
-                    if (maxtime == 0){msg = "即将进入！";}
+                    if (maxtime == 0){msg = "即將進入！";}
 					document.all["timer"].innerHTML = msg;
                         --maxtime;
                 } else{
@@ -24,40 +24,40 @@
             timer = setInterval("CountDown()", 1000);                
 </SCRIPT>
 <SCRIPT>
-//显示ip节点
+//顯示ip節點
 $(function() {
         $.get("/cdn-cgi/trace",
         function(data) {
                 var sip = data.match(/(ip=?)(\S*)/)[2];
                 var str = data.match(/(colo=?)(\S*)/)[2];
-                var every = [['HKG', 'CloudFlare香港'], ['MFM', 'CloudFlare澳门'], ['BKK', 'CloudFlare曼谷'], ['TPE', 'CloudFlare台北'], ['NRT', 'CloudFlare东京'], ['KIX', 'CloudFlare大阪'], ['ICN', 'CloudFlare仁川'], ['LHR', 'CloudFlare伦敦'], ['SIN', 'CloudFlare新加坡'], ['CDG', 'CloudFlare巴黎'], ['FRA', 'CloudFlare法兰克福'], ['KUL', 'CloudFlare马来西亚'], ['LAX', 'CloudFlare洛杉矶'], ['SJC', 'CloudFlare圣何塞'], ['KBP', 'CloudFlare乌克兰'], ['PRG', 'CloudFlare布拉格']];
+                var every = [['HKG', 'CloudFlare香港'], ['MFM', 'CloudFlare澳門'], ['BKK', 'CloudFlare曼谷'], ['TPE', 'CloudFlare臺北'], ['NRT', 'CloudFlare東京'], ['KIX', 'CloudFlare大阪'], ['ICN', 'CloudFlare仁川'], ['LHR', 'CloudFlare倫敦'], ['SIN', 'CloudFlare新加坡'], ['CDG', 'CloudFlare巴黎'], ['FRA', 'CloudFlare法蘭克福'], ['KUL', 'CloudFlare馬來西亞'], ['LAX', 'CloudFlare洛杉磯'], ['SJC', 'CloudFlare聖何塞'], ['KBP', 'CloudFlare烏克蘭'], ['PRG', 'CloudFlare布拉格']];
                 for (var i = 0; i < every.length; i++) {
                         if (str == every[i][0]) {
-                                $("#result").append("当前CDN节点:[" + str + "]" + every[i][1] + ",本地IP:" + sip);
+                                $("#result").append("當前CDN節點:[" + str + "]" + every[i][1] + ",本地IP:" + sip);
                         }
                 }
                 
         });
 })
-//控制台
+//控制臺
 console.clear();
-console.log('%c访问即代表遵守本站Cookies! ','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
-console.log('%c如有不适,请您直接关闭本页面. ','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
-console.log('%c页面加载完毕消耗了'+Math.round(performance.now()*100)/100+'ms','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
+console.log('%c訪問即代表遵守本站Cookies! ','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
+console.log('%c如有不適,請您直接關閉本頁面. ','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
+console.log('%c頁面加載完畢消耗了'+Math.round(performance.now()*100)/100+'ms','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
 console.log("%c「Maybe you are my God」", "background:black; color:white; font-size:25px");
 console.log("%c ", "background: url(https://ws4.sinaimg.cn/large/0076VEu5ly1g0889n445fj30dw08i74u.jpg) no-repeat center;padding-left:500px;padding-bottom: 364px;");
 </SCRIPT>
 <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/a849533752/cloudflareCP/master/style.css">
 </head>
 <body style="text-align: center;">
-<a><img style="width: 200px;" src="https://i.loli.net/2019/04/27/5cc333aae18b0.jpg" /></a>
-<h3 style="color: #58b1f7;"><div data-translate="checking_browser" id="timer">你的IP被本站安全规则拦截，需要您输入验证码,验证您非机器人</div> </h3>
+<a><img style="width: 700px;" src="https://i.loli.net/2019/04/27/5cc333aae18b0.jpg" /></a>
+<h3 style="color: #58b1f7;"><div data-translate="checking_browser" id="timer">妳的IP被本站安全規則攔截，需要您輸入驗證碼,驗證您非機器人</div> </h3>
 <div class="attribution" style="margin:0 auto;padding-top:6rem;" align="center">
 
 ::CAPTCHA_BOX::	
 
 </div>	
-<p style="color: #84c1bc;" data-translate="process_is_automatic">事件编号：::RAY_ID::<br>您的IP：::CLIENT_IP:: ::GEO::</p>
+<p style="color: #84c1bc;" data-translate="process_is_automatic">事件編號：::RAY_ID::<br>您的IP：::CLIENT_IP:: ::GEO::</p>
 <h3 style="color: #8690c7;" style="color: #adadad;" ><small id="result"></small></h3>
 <div class="scene">
   <svg 
@@ -70,7 +70,7 @@ console.log("%c ", "background: url(https://ws4.sinaimg.cn/large/0076VEu5ly1g088
   viewBox="0 0 38 38" 
   preserveAspectRatio="xMinYMin meet"
   >
-  <text x="14" y="21" font-family="Monaco" font-size="2px" style="font-weight: 500;fill: #CDDC39;" fill="grey" id="timer">请输入验证码
+  <text x="14" y="21" font-family="Monaco" font-size="2px" style="font-weight: 500;fill: #CDDC39;" fill="grey" id="timer">請輸入驗證碼
      <animate 
        attributeName="opacity"
        values="0;1;0" dur="1.8s"
