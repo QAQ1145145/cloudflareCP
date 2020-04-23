@@ -45,7 +45,7 @@ console.log('%c訪問即代表遵守本站Cookies! ','background:#fff;color:#333
 console.log('%c如有不適,請您直接關閉本頁面. ','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
  console.log('%c頁面加載完畢消耗了'+Math.round(performance.now()*100)/100+'ms','background:#fff;color:#333;text-shadow:0 0 2px #eee,0 0 3px #eee,0 0 3px #eee,0 0 2px #eee,0 0 3px #eee;');
 console.log("%c「Maybe you are my God」", "background:white; color:white; font-size:25px");
-console.log("%c ", "background: url(https://ws4.sinaimg.cn/large/0076VEu5ly1g0889n445fj30dw08i74u.jpg) no-repeat center;padding-left:500px;padding-bottom: 364px;");
+console.log("%c ", "background: url(https://i.loli.net/2020/04/24/BbmnKgEX9iG1yaf.jpg) no-repeat center;padding-left:500px;padding-bottom: 364px;");
 </SCRIPT>
 <style>
 
@@ -55,7 +55,7 @@ html {
   overflow: hidden;
 }
 html body {
-  background: #333333;
+  background: #ffffff;
   background-size: 163px;
   font: 14px/21px Monaco, sans-serif;
   color: #999;
@@ -150,7 +150,7 @@ html body h4 {
 </style>
 </head>
 <body style="text-align: center;">
-<a><img style="width: 150px;" src="https://i.loli.net/2020/04/24/CkYslXKH6fBVujP.png" /></a>
+<a><img style="width: 150px;" src="https://i.loli.net/2020/04/24/Vx8aJ6n3R9XUrei.png" /></a>
 <h3 style="color: #58b1f7;"><div data-translate="checking_browser" id="timer">本站目前不對當前地區開放，請更改您的本地IP</div> </h3>
 <p style="color: #84c1bc;" data-translate="process_is_automatic">事件編號：::RAY_ID::<br>您的IP：::CLIENT_IP:: ::GEO::</p>
 <h3 style="color: #8690c7;" style="color: #adadad;" ><small id="result"></small></h3>
